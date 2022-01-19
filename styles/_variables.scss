@@ -1,0 +1,37 @@
+$success50: #33db58;
+$success100: #18c33d;
+$success150: #198f33;
+$error50: #db3347;
+$error100: #c3182c;
+$error150: #8f1927;
+$primary50: #6f3bde;
+$primary100: #4f18c3;
+$primary150: #370c92;
+$black50: #0a090b;
+$black100: #161519;
+$black150: #1e1e20;
+$white50: #f2edfe;
+$white100: #cbb4fe;
+
+// fonts
+$h1: 600 Rubik 32px/1.1;
+$h2: 600 Rubik 24px/1.4;
+$h3: 600 Rubik 18px/1.4;
+$button: 600 16px 18px/1.4;
+$p1: 400 Poppins 16px/1.4;
+$p2: 400 Poppins 14px/1.4;
+$small: 400 Poppins 12px/1.4;
+
+// border-radius
+$small: 15px;
+$medium: 20px;
+$large: 40px;
+
+$bg-color: #0a090b66;
+$bg-blur: blur(300px);
+
+@mixin backgroundBlur {
+  background: $bg-color;
+  backdrop-filter: $bg-blur;
+  box-shadow: 0px 20px 110px -47px #000000;
+}

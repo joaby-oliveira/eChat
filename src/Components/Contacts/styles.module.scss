@@ -1,0 +1,9 @@
+@import "../../../styles/variables";
+
+.Contacts {
+  padding: 2rem;
+  border-radius: $small;
+  grid-area: contacts;
+  @include backgroundBlur;
+  box-shadow: 0px 20px 110px -37px #000000;
+}

@@ -1,0 +1,10 @@
+@import "../../styles/variables";
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "contacts chat chat";
+  gap: 1rem;
+}
