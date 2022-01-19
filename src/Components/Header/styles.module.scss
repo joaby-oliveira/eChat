@@ -2,8 +2,11 @@
 
 .Header {
   padding: 2rem;
-  border-radius: $small;
+  border-radius: $medium;
   grid-area: header;
   background: $bg-color;
   backdrop-filter: $bg-blur;
+  h1 {
+    margin-left: 1rem;
+  }
 }

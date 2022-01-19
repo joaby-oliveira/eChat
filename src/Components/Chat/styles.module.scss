@@ -1,0 +1,9 @@
+@import "../../../styles/variables";
+
+.Chat {
+  padding: 2rem;
+  @include backgroundBlur;
+  grid-area: chat;
+  border-radius: $large;
+  width: 100%;
+}

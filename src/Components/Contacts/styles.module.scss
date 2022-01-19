@@ -2,8 +2,38 @@
 
 .Contacts {
   padding: 2rem;
-  border-radius: $small;
+  border-radius: $large;
   grid-area: contacts;
   @include backgroundBlur;
   box-shadow: 0px 20px 110px -37px #000000;
+  .top {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    column-gap: 1rem;
+    border-bottom: 2px solid #0000003d;
+    padding-bottom: 1rem;
+    input {
+      border: none;
+      padding: 1rem;
+      font: $p2;
+      &::placeholder {
+        color: $white100;
+      }
+      width: 200px;
+    }
+    .addContact {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+    input,
+    .addContact {
+      border-radius: $medium;
+      background: $bg-color;
+    }
+  }
+  .noUser {
+    margin-top: 1rem;
+    font: $caption;
+    color: $white100;
+  }
 }

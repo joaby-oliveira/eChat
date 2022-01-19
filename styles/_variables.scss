@@ -14,13 +14,13 @@ $white50: #f2edfe;
 $white100: #cbb4fe;
 
 // fonts
-$h1: 600 Rubik 32px/1.1;
-$h2: 600 Rubik 24px/1.4;
-$h3: 600 Rubik 18px/1.4;
-$button: 600 16px 18px/1.4;
-$p1: 400 Poppins 16px/1.4;
-$p2: 400 Poppins 14px/1.4;
-$small: 400 Poppins 12px/1.4;
+$h1: 600 32px/1.1 Rubik;
+$h2: 600 24px/1.4 Rubik;
+$h3: 600 18px/1.4 Rubik;
+$button: 600 18px/1.4 Rubik;
+$p1: 400 16px/1.4 Poppins;
+$p2: 400 14px/1.4 Poppins;
+$caption: 400 12px/1.4 Poppins;
 
 // border-radius
 $small: 15px;
@@ -33,5 +33,5 @@ $bg-blur: blur(300px);
 @mixin backgroundBlur {
   background: $bg-color;
   backdrop-filter: $bg-blur;
-  box-shadow: 0px 20px 110px -47px #000000;
+  box-shadow: 0px 20px 110px -37px #000000;
 }

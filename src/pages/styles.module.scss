@@ -4,7 +4,8 @@
   width: 100%;
   display: grid;
   grid-template-areas:
-    "header header header"
-    "contacts chat chat";
+    "header header"
+    "contacts chat";
+  grid-template-columns: 1fr 11fr;
   gap: 1rem;
 }

@@ -5,6 +5,7 @@ import styles from "./styles.module.scss";
 
 import { Header } from "../Components/Header";
 import { Contacts } from "../Components/Contacts";
+import { Chat } from "../Components/Chat";
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <main className={styles.container}>
         <Header />
         <Contacts />
+        <Chat />
       </main>
     </>
   );
