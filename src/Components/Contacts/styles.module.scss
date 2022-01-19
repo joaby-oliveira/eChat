@@ -16,19 +16,31 @@
       border: none;
       padding: 1rem;
       font: $p2;
+      width: 200px;
+      transition: 0.2s;
+      outline: none;
+      color: $white50;
       &::placeholder {
         color: $white100;
       }
-      width: 200px;
+      &:focus {
+        background: #000000de;
+      }
     }
     .addContact {
       width: 3.5rem;
       height: 3.5rem;
+      &:hover {
+        cursor: pointer;
+      }
     }
     input,
     .addContact {
       border-radius: $medium;
       background: $bg-color;
+      &:hover {
+        background: #000000de;
+      }
     }
   }
   .noUser {
