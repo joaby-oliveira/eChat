@@ -9,3 +9,17 @@
   grid-template-columns: 1fr 11fr;
   gap: 1rem;
 }
+.animated {
+  transform: translate3d(0, -10rem, 0);
+  animation: animatePage 0.8s forwards;
+}
+
+@keyframes animatePage {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
