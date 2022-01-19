@@ -1,14 +1,16 @@
 @import "../../styles/variables";
 .container {
-  height: 100%;
+  height: calc(100vh - 4rem);
   width: 100%;
   display: grid;
   grid-template-areas:
     "header header"
     "contacts chat";
   grid-template-columns: 1fr 11fr;
+  grid-template-rows: 1fr 12fr;
   gap: 1rem;
 }
+
 .animated {
   transform: translate3d(0, -10rem, 0);
   animation: animatePage 0.8s forwards;

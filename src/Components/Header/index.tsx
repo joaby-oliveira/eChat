@@ -8,7 +8,7 @@ import profile from "../../../public/profile.png";
 
 export const Header = () => {
   return (
-    <header className={`${styles.Header} flex spaceBetween`}>
+    <header className={`${styles.Header} flex mainSpaceBetween`}>
       <div className={`flex crossCenter`}>
         <Image src={house} alt="Início" />
         <Title>início</Title>

@@ -32,6 +32,10 @@ body {
   align-items: center;
 }
 
-.spaceBetween {
+.mainSpaceBetween {
   justify-content: space-between;
+}
+
+.crossSpaceBetween {
+  align-items: space-between;
 }

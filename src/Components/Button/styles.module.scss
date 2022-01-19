@@ -1,0 +1,18 @@
+@import "../../../styles/variables";
+
+.Button {
+  padding: 1rem 2rem;
+  font: $button;
+  color: $white50;
+  background: $primary100;
+  border: none;
+  border-radius: $small;
+  cursor: pointer;
+  transition: 0.2s background;
+  &:hover {
+    background: $primary150;
+  }
+  &:active {
+    background: $primary50;
+  }
+}

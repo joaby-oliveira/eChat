@@ -6,12 +6,12 @@ export const Contacts = () => {
   return (
     <nav className={`${styles.Contacts} flex column crossCenter`}>
       <div className={`${styles.top}`}>
-        <input placeholder="Procurar contato" />{" "}
+        <input placeholder="procurar contato" />{" "}
         <div className={`${styles.addContact} flex mainCenter crossCenter`}>
           <AiOutlinePlus size={24} color="#F2EDFE" />
         </div>
       </div>
-      <p className={`${styles.noUser}`}>Nenhum usuário criado</p>
+      <p className={`${styles.noUser}`}>nenhum usuário criado</p>
     </nav>
   );
 };
