@@ -3,4 +3,7 @@
 .Title {
   font: $h1;
   color: $white50;
+  &.h2 {
+    font: $h2;
+  }
 }
