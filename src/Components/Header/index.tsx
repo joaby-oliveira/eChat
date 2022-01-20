@@ -11,7 +11,7 @@ export const Header = () => {
     <header className={`${styles.Header} flex mainSpaceBetween`}>
       <div className={`flex crossCenter`}>
         <Image src={house} alt="Início" />
-        <Title>início</Title>
+        <Title type="">início</Title>
       </div>
       <Link href="user">
         <a>
