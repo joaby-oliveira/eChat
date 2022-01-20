@@ -8,9 +8,11 @@ import { Button } from "../../Components/Button";
 export const Chat = () => {
   return (
     <div className={`${styles.Chat} flex column mainSpaceBetween crossCenter`}>
-      <Title>você ainda não tem nenhuma conversa</Title>
+      <Title type="">você ainda não tem nenhuma conversa</Title>
       <Image src={noContact} alt="Adicione contatos" />
-      <Button>adicionar seu primeiro contato</Button>
+      <Button type="" fillParent={false}>
+        adicionar seu primeiro contato
+      </Button>
     </div>
   );
 };
