@@ -23,6 +23,14 @@
       background: $error50;
     }
   }
+  &.google {
+    background: #fff;
+    color: $black150;
+    margin-top: 1rem;
+    &:hover {
+      background: #d9d9d2;
+    }
+  }
   &:hover {
     background: $primary150;
   }

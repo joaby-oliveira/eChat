@@ -15,18 +15,6 @@
   @include backgroundBlur;
   border-radius: $large;
   position: relative;
-  .backButton {
-    width: 4rem;
-    height: 4rem;
-    border-radius: $small;
-    transition: 0.2s;
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    &:hover {
-      background: $bg-color;
-    }
-  }
 
   .profileWrapper {
     padding: 2rem 0;
@@ -70,31 +58,51 @@
       width: 100%;
       gap: 1rem;
       margin-bottom: 1rem;
-      .input {
-        width: 100%;
-        background: #cbb4fe1a;
-        border: none;
-        padding: 1rem;
-        font: $p2;
-        transition: 0.2s;
-        outline: none;
-        color: $white50;
-        border-radius: $medium;
-        &::placeholder {
-          color: $white100;
-        }
-        &:hover {
-          background: #cbb4fe36;
-        }
-        &:focus {
-          background: #cbb4fe56;
-        }
-      }
     }
   }
   .actions {
     width: 100%;
     padding: 0 2rem 2rem 2rem;
+  }
+}
+
+.sign {
+  height: calc(100vh - 4rem);
+  .formContainer {
+    display: flex;
+    .form {
+      padding: 2rem;
+      width: 400px;
+      margin-top: 2rem;
+      border-radius: 2rem;
+      @include backgroundBlur;
+      .input {
+        & + .input {
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
+}
+
+.input {
+  width: 100%;
+  background: #cbb4fe1a;
+  border: none;
+  padding: 1rem;
+  font: $p2;
+  transition: 0.2s;
+  outline: none;
+  color: $white50;
+  border-radius: $medium;
+  &::placeholder {
+    color: $white100;
+  }
+  &:hover {
+    background: #cbb4fe36;
+  }
+  &:focus {
+    background: #cbb4fe56;
   }
 }
 

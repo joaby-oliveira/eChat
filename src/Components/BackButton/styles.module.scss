@@ -1,0 +1,13 @@
+@import "../../../styles/variables";
+.backButton {
+  width: 4rem;
+  height: 4rem;
+  border-radius: $small;
+  transition: 0.2s;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  &:hover {
+    background: $bg-color;
+  }
+}

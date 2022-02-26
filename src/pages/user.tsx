@@ -5,10 +5,10 @@ import styles from "./styles.module.scss";
 
 import { Title } from "../Components/Title";
 import { AiOutlineEdit, AiOutlineRollback } from "react-icons/ai";
-import Link from "next/link";
 import profile from "../../public/profile.png";
 import Image from "next/image";
 import { Button } from "../Components/Button";
+import { BackButton } from "../Components/BackButton";
 
 const User: NextPage = () => {
   return (
@@ -22,11 +22,7 @@ const User: NextPage = () => {
       <main
         className={`${styles.animated} ${styles.profile} flex column crossCenter`}
       >
-        <Link href="../">
-          <a className={`${styles.backButton} flex mainCenter crossCenter`}>
-            <AiOutlineRollback color="#fff" size={32} />
-          </a>
-        </Link>
+        <BackButton />
         <div className={`${styles.profileWrapper} flex column crossCenter`}>
           <Image alt="user" src={profile} />
           <div className={`${styles.editButton} flex mainCenter crossCenter`}>
