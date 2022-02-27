@@ -43,7 +43,7 @@ const User: NextPage = () => {
         </form>
         <div className={`${styles.actions}`}>
           <Title type="h2">ações</Title>
-          <Button fillParent={true} type="error">
+          <Button onClick="" fillParent={true} type="error">
             <AiOutlineRollback size={24} />
             sair
           </Button>
