@@ -10,7 +10,7 @@ export const Chat = () => {
     <div className={`${styles.Chat} flex column mainSpaceBetween crossCenter`}>
       <Title type="">você ainda não tem nenhuma conversa</Title>
       <Image src={noContact} alt="Adicione contatos" />
-      <Button type="" fillParent={false}>
+      <Button onClick="" type="" fillParent={false}>
         adicionar seu primeiro contato
       </Button>
     </div>
